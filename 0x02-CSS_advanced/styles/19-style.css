@@ -181,7 +181,7 @@ a:active {
     text-align: right;
 }
 
-.row {
+ul.row {
     margin: 0;
     padding: 0;
     list-style: none;
