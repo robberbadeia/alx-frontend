@@ -431,10 +431,12 @@
     flex-direction: row-reverse;
   }
 
-  .section-latest-news .row {
-    flex-direction: column;
+  @media screen and (max-width: 767px) {
+    .section-latest-news .row {
+      flex-direction: column;
+    }
   }
-  
+
   /* Section SERVICES
       ============================= */
   
